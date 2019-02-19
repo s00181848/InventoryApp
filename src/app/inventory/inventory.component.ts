@@ -1,25 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Product } from '../product';
+
 
 @Component({
   selector: 'app-inventory',
-  template: 
-  `
-  <div class="app-inventory">
-  <h1>{{product.name}}</h1>
-  <span>{{product.sku}}</span>
-  </div>
-  `,
+  templateUrl: './inventory.component.html',
   styleUrls: ['./inventory.component.css']
 })
 export class InventoryComponent implements OnInit {
-product: Product;
-  constructor() { 
-    this.product = new Product('MYSHOES',
-    'black running shoes', '/assets/images/products/black-shoes.jpg', 
-    ['Mens', 'Running', 'Shoes'], 109.99 );
-
-  }
 
   ngOnInit() {
   }
