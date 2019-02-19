@@ -6,7 +6,8 @@ import { Product } from '../product';
   template: 
   `
   <div class="app-inventory">
-  (products will go here soon)
+  <h1>{{product.name}}</h1>
+  <span>{{product.sku}}</span>
   </div>
   `,
   styleUrls: ['./inventory.component.css']
