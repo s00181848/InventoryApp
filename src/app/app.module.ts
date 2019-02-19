@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { InventoryComponent } from './inventory/inventory.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { ProductComponent } from './product/product.component';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { ProductComponent } from './product/product.component';
     InventoryComponent,
     BreadcrumbsComponent,
     ProductListComponent,
-    ProductComponent
+ 
   ],
   imports: [
     BrowserModule
