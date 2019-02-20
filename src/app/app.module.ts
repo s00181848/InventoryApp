@@ -5,6 +5,10 @@ import { AppComponent } from './app.component';
 import { InventoryComponent } from './inventory/inventory.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { ProductRowComponent } from './product-row/product-row.component';
+import { ProductImageComponent } from './product-image/product-image.component';
+import { PriceDisplayComponent } from './price-display/price-display.component';
+import { ProductDepartmentComponent } from './product-department/product-department.component';
 
 
 @NgModule({
@@ -13,6 +17,10 @@ import { ProductListComponent } from './product-list/product-list.component';
     InventoryComponent,
     BreadcrumbsComponent,
     ProductListComponent,
+    ProductRowComponent,
+    ProductImageComponent,
+    PriceDisplayComponent,
+    ProductDepartmentComponent,
  
   ],
   imports: [
