@@ -2,7 +2,7 @@ import { Component, OnInit, Input, HostBinding } from '@angular/core';
 import { Product } from '../product';
 
 @Component({
-  selector: 'product-row',
+  selector: 'app-product-row',
   templateUrl: './product-row.component.html',
   styleUrls: ['./product-row.component.css']
 })
